@@ -1,0 +1,309 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke !important;
+}
+
+
+.bordaer{
+    border: 1px solid red;
+}
+
+:root{
+    --color-text1:#094989;
+}
+
+
+.container-fluid{
+    display: block !important;
+    
+
+}
+
+
+
+
+.navbar{
+    background-color: #e4ebef;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+    margin: 0px !important;
+   
+
+}
+
+.navbar-brand  .logoImg{
+    width: 90px;
+}
+
+
+.navbar-nav2{
+    width: 100%;
+    display: flex  !important; 
+    justify-content: space-between !important;
+    padding: 0px 11px;
+}
+
+.nav2 {
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 1% 2%;
+    border-radius: 25px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: .8rem;
+    height: 45px !important;
+   
+}
+
+.nav2-menu{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative !important;
+    border-radius: 25px;
+}
+
+.divNav{
+    display: flex;
+}
+
+.nav1{
+    display: flex;
+    justify-content: start;
+  
+}
+.nav3{
+    display: flex ;
+    justify-content: center !important;
+}
+.nav1,.nav2,.nav3{
+    padding: 0px !important;
+    margin: 6px 0px !important;
+   
+
+}
+
+.navbar-nav2 .dropdown a{
+    color: #094989    !important;
+    font-weight: bold;
+    font-size: 16px;
+   
+
+}
+
+
+
+
+.navbar-collapse ul li navbar-brand{
+    color: #094989    !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+ul .dropdown-menu {
+    background-color: whitesmoke !important;
+    position: absolute;
+    top: 110% !important; 
+}
+
+.nav3  div{
+    display: flex;
+    width: 100% !important;
+    justify-content: space-around;
+}
+
+
+
+.nav3  .nav1-icon {
+    font-size: 20px !important;
+   cursor: pointer !important;
+}
+
+
+
+
+/**/
+
+
+
+.product-content{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px;
+    gap: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+.products .Category{
+    background-color:rgb(216, 215, 215);
+    padding: 1px 4px;
+    font-size: 15px; 
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+
+.products{
+    gap: 10%;
+    margin: auto !important;
+    margin-top: 3rem !important;
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    background-color:white ;
+    padding: 0px ;
+    
+}
+
+
+.AllProducts{
+    text-align: center;
+    margin-top: 5rem !important;
+}
+
+
+
+
+.product .card-text{
+    font-size: 15px;
+    border-radius: 5px;
+    color: #094989;
+    padding: 1px 3px;
+}
+
+
+.btnEditDel{
+    width: 30%;
+    height: 25px;
+    font-size: 15px;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding:  0px !important;
+}
+
+
+.product-image{
+    min-width:  100%;
+    max-height: 190px;
+    padding: 15px !important;
+    margin: 0px !important;
+}
+
+.btnAddToCart{
+    display: flex !important ;
+    width: 90%;
+    background-color: rgb(39, 204, 39);
+    color: white ;
+    margin-top: 1.5rem !important;
+    margin: 10px 0px;
+    
+
+ 
+}
+
+
+.btnAddToCart p {
+    margin: 0;
+    color: white ;
+    font-weight: bold;    
+    font-size: 15px;
+
+} 
+
+
+
+
+
+ 
+/* FormSection*/
+
+.formSection{
+    background-color: white ;
+    width: 60% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom:5rem  ;
+    padding: 1.8rem 0rem;
+
+}
+
+
+.formMain h2{
+margin-top: 5rem;
+text-align: center;
+margin-bottom: 2.5rem;
+}
+
+.productImage{
+    width: 60%  !important;
+}
+
+.img-submit{
+    display: flex ;
+    justify-content: space-between;
+}
+
+
+.admintext .bi-cart4 {
+    color: black !important; /* لون الرمز عند تحويل الماوس فوقه */
+}
+
+.bi-cart4:hover {
+    color: black !important; /* لون الرمز عند تحويل الماوس فوقه */
+}
+
+
+li a{
+    text-decoration: none !important;
+    font-size: 14px !important;
+  }
+  
+  .navbar-nav2{
+    padding: 0px 15px !important;
+  } 
+    
+
+  li a{
+    text-decoration: none !important;
+    font-size: 14px !important;
+  }
+  
+  .navbar-nav2{
+    padding: 0px 15px !important;
+  }
+   
+
+
+
+
+

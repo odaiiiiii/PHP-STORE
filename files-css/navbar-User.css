@@ -1,0 +1,154 @@
+
+
+.navbar{
+    padding: .5rem 1.5rem !important;
+}
+
+.nav1-icon {
+    color: black;
+}
+
+.btnAddToCart i:hover{
+    color: white !important;
+}
+
+.btn:hover{
+    color: white !important;
+}
+
+
+@media(max-width:992px){
+    .nav1 .navbar-brand .logoImg{
+        width: 80px !important;
+    }
+  
+
+    .nav2 {
+    padding: 1% 2%;
+    height: 45px !important;
+   
+}
+.navbar-nav2{
+    width: 100%;
+    padding: 0px 11px;
+}
+.navbar-nav2 li a{
+
+    font-size: 12px !important;
+}
+
+.nav3  div{
+    width: 80% !important;
+    justify-content: space-around;
+}
+
+.nav3  .nav1-icon {
+    font-size: 17px !important;
+}
+
+
+}
+
+
+@media(max-width:767px){
+    .nav1 .navbar-brand .logoImg{
+        width: 70px !important;
+    }
+  
+    .nav2 {
+    height: 32px !important;
+    width: 57%;
+
+   
+}
+.navbar-nav2 li a{
+
+font-size: 8.2px !important;
+}
+
+
+.nav3  div{
+    width: 80% !important;
+    justify-content: space-around;
+}
+
+.navbar-nav2{
+    width: 100%;
+    display: flex  !important; 
+    padding: 0px 0px;
+}
+
+.nav3  .nav1-icon {
+    font-size: 15px !important;
+}
+
+}
+
+@media(max-width:575px){
+
+    .navbar{
+    padding: .2rem .3rem !important;
+}
+
+    .nav1 .navbar-brand .logoImg{
+        width: 60px !important;
+    }
+
+    .nav1{
+        width: 15%;
+    }
+
+    .nav2{
+        width: 65%;
+        height: 30px !important;
+    }
+    .nav3{
+        width: 20%;
+    }
+  
+}
+
+@media(max-width:450px){
+    .nav2{
+        width: 68%;
+        height: 30px !important;
+    }
+
+
+    .nav1 .navbar-brand .logoImg{
+        width: 50px !important;
+    }
+
+    .nav3{
+        
+        width: 17%;
+        display: block !important;
+    }
+    .dropdown {
+        flex-direction: column;
+        align-items:center;
+        margin-left: 1rem;
+     
+       
+    }
+
+    .nav3  .nav1-icon {
+    font-size: 12px !important;
+}
+.nav2{
+    width: 65%;
+}
+.hideOthers{
+    display: none;
+}
+
+.navbar{
+    justify-content: space-between !important;
+    padding: 0px .5rem !important;
+
+}
+.navbar-nav2{
+   justify-content: center !important;
+}
+}
+

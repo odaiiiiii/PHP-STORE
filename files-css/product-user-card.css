@@ -1,0 +1,150 @@
+.products{
+    gap: 0%;
+
+}
+
+.product-image{
+    min-width:  100%;
+    height: 200px;
+    padding: 25px !important;
+}
+
+.dropdown-menu{
+    position: absolute !important;
+    left: 95px !important;
+    top: 40px !important;
+
+}
+
+
+@media(max-width:992px){
+
+    .dropdown-menu{
+    position: absolute !important;
+    left: 5px !important;
+    top: 40px !important;
+
+}
+    .AllProducts{
+    margin-top: 4rem !important;
+}
+
+
+
+.product{
+    
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0px ;
+    width:100% ;
+    
+}
+.product-image{
+    height: 160px ;
+    padding: 15px !important;
+}
+
+.product-content{
+    margin: 15px 0px;
+    gap: .2rem;
+    font-size: 13px;
+}
+.product .card-text{
+    font-size: 13px;
+    padding: 1px 3px;
+}
+.products .Category{
+    padding: 1px 4px;
+    font-size: 12px; 
+
+}
+
+
+.btnAddToCart p {
+
+    font-size: 13px;
+   
+} 
+
+
+
+}
+
+
+@media(max-width:767px){
+
+    .dropdown-menu{
+    position: absolute !important;
+    left: -24px !important;
+    top: 40px !important;
+
+}
+    .AllProducts{
+    margin-top: 3.5rem !important;
+}
+
+}
+
+@media(max-width:576px){
+    .AllProducts{
+    margin-top: 3rem !important;
+}
+.dropdown-menu{
+    position: absolute !important;
+    left: -70px !important;
+    top: 40px !important;
+
+}
+
+
+}
+@media(max-width:450px){
+    .AllProducts{
+    margin-top: 2rem !important;
+}
+.product-image{
+    padding: 20px !important;
+}
+
+.product-content{
+    margin: 8px 0px;
+    gap: 0.2rem;
+    font-size: 12px;
+}
+.product .card-text{
+    font-size: 12px;
+    padding: 1px 3px;
+}
+.products .Category{
+    padding: 1px 4px;
+    font-size: 12px; 
+
+}
+
+.btnAddToCart{
+    width: 100%;
+}
+.btnAddToCart p {
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+font-size: 11px;
+
+
+} 
+.card-body {
+    padding: 2px 18px !important;
+}
+.dropdown-menu{
+    position: absolute !important;
+    left: -90px !important;
+    top: 50px !important;
+
+}
+
+.custom-col {
+                flex: 0 0 83.333333%; /* This is col-10 */
+                max-width: 83.333333%;
+            }
+}
+

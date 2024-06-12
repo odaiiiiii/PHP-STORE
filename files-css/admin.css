@@ -1,0 +1,142 @@
+
+*{
+    font-family: "Caveat", cursive;
+ }
+    
+  li a{
+   text-decoration: none !important;
+   font-size: 14px !important;
+ }
+ 
+ li a:hover{
+   font-size: 14.3px !important;
+   
+ 
+ }
+ 
+ 
+ .navbar-nav2{
+   padding: 0px 25px !important;
+ }
+ 
+ .navbar1 {
+     width: 100%;
+   }
+ 
+ @media(max-width:992px ){
+   .navbar1 {
+     width: 100%;
+   }
+ 
+   .hide{
+     display: none;
+   }
+   .nav2 li a{
+     font-size: 15px !important;
+   }
+   .nav2 li a:hover{
+     font-size: 15.3px !important;
+   }
+   .navbar-nav2{
+     padding: 0px !important;
+ 
+   }
+ 
+   @media(max-width:769px ){
+ 
+     .navbar-brand  .logoImg{
+     width: 75px;
+    
+     }
+  
+     .nav3  .nav1-icon {
+     font-size: 12.5px !important;
+    
+ }
+ 
+ .nav2 {
+    
+     margin: auto   !important;
+     
+     padding: 2px 1px !important;
+     justify-content: space-between !important;
+     width: 60% !important;
+     height: 35px !important;
+    
+ }
+ .nav2 li a{
+     font-size: 12px !important;
+   }
+   .nav2 li a:hover{
+     font-size: 12.3px !important;
+   }
+   }
+   @media(max-width:555px) {
+     
+     .navbar-brand  .logoImg{
+     width: 65px;
+    
+     }
+  
+     .nav3  .nav1-icon {
+     font-size: 12px !important;
+    
+ }
+   }
+ 
+   
+ 
+   @media(max-width:500px) {
+     .navbar1 {
+       padding: 0px !important;
+       margin:  0px !important;
+ 
+     }
+     .nav2 li a{
+     font-size: 10px !important;
+   }
+   .nav2 li a:hover{
+     font-size: 10.2px !important;
+   }
+   .nav2 {
+    
+    margin: auto   !important;
+    
+    padding: 2px 5px !important;
+    width: 60% !important;
+    height: 30px !important;
+   }
+   }
+ 
+ 
+   @media(max-width:440px) {
+     .nav2 {
+    
+    margin: auto   !important;
+    
+    padding: 2px 5px !important;
+    width: 51% !important;
+    height: 30px !important;
+   }
+   .nav2 li a{
+     font-size: 9px !important;
+   }
+   .nav2 li a:hover{
+     font-size: 9.3px !important;
+   }
+   .navbar-brand  .logoImg{
+     width: 60px;
+    
+     }
+  
+     .nav3  .nav1-icon {
+     font-size: 11px !important;
+    
+ }
+   }
+ 
+ 
+   
+ }
+ 
+ 
